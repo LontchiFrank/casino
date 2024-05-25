@@ -42,10 +42,8 @@ function Footer() {
 									</span>
 								</li>
 								<li>
-									<a
-										href="https://tailwindcss.com/"
-										className="hover:underline">
-										Tailwind CSS
+									<a href="" className="hover:underline">
+										Slot Games
 									</a>
 								</li>
 							</ul>
@@ -75,7 +73,7 @@ function Footer() {
 							<h2 className="mb-6 text-sm font-semibold text-white uppercase ">
 								Legal
 							</h2>
-							<ul className="text-white dark:text-gray-400 font-medium">
+							<ul className="text-white font-medium">
 								<li className="mb-4">
 									<a href="#" className="hover:underline">
 										Privacy Policy
@@ -94,15 +92,13 @@ function Footer() {
 				<div className="sm:flex sm:items-center sm:justify-between">
 					<span className="text-sm text-white sm:text-center ">
 						© 2024{" "}
-						<a href="https://flowbite.com/" className="hover:underline">
+						<a href="" className="hover:underline">
 							Casino
 						</a>
 						. All Rights Reserved.
 					</span>
 					<div className="flex mt-4 sm:justify-center sm:mt-0">
-						<a
-							href="#"
-							className="text-white hover:text-gray-900 dark:hover:text-white">
+						<a href="#" className="text-white hover:text-gray-900 ">
 							<svg
 								className="w-4 h-4"
 								aria-hidden="true"
@@ -117,7 +113,7 @@ function Footer() {
 							</svg>
 							<span className="sr-only">Facebook page</span>
 						</a>
-						<a href="#" className="text-white  dark:hover:text-white ms-5">
+						<a href="#" className="text-white   ms-5">
 							<svg
 								className="w-4 h-4"
 								aria-hidden="true"
@@ -128,7 +124,7 @@ function Footer() {
 							</svg>
 							<span className="sr-only">Discord community</span>
 						</a>
-						<a href="#" className="text-white  dark:hover:text-white ms-5">
+						<a href="#" className="text-white   ms-5">
 							<svg
 								className="w-4 h-4"
 								aria-hidden="true"
@@ -143,7 +139,7 @@ function Footer() {
 							</svg>
 							<span className="sr-only">Twitter page</span>
 						</a>
-						<a href="#" className="text-white  dark:hover:text-white ms-5">
+						<a href="#" className="text-white   ms-5">
 							<svg
 								className="w-4 h-4"
 								aria-hidden="true"
