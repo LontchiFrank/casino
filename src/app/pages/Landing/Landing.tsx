@@ -42,7 +42,7 @@ function Landing() {
 				{isVisible && (
 					<button
 						onClick={scrollToTop}
-						className="p-4 bg-[#f92e78] text-white rounded-lg shadow-lg hover:bg-[#f92e78] fixed z-2 bottom-0 right-0 cursor-pointer">
+						className="p-4 bg-[#f92e78] text-white rounded-lg shadow-lg hover:bg-[#ff5996]  fixed z-2 bottom-[18px] right-[18px] cursor-pointer">
 						↑
 					</button>
 				)}
@@ -51,16 +51,16 @@ function Landing() {
 						<div className="w-full h-full  flex lg:flex-row flex-col">
 							<div className="lg:w-1/2 w-full flex flex-col lg:pt-0 pt-8 justify-center items-center">
 								<div className="w-full flex justify-start">
-									<Bounce>
+									<Fade>
 										<span className="text-green-500">Bonus</span>
-									</Bounce>
+									</Fade>
 								</div>
-								<Bounce>
+								<Slide direction="down">
 									<h1 className="lg:text-[3.7rem] text-[2rem] text-white font-semibold lg:leading-[4rem] pb-2 leading-[3rem]">
 										{" "}
 										Best Casino Affiliate Programs for Everyone
 									</h1>
-								</Bounce>
+								</Slide>
 
 								<Fade>
 									<span className="lg:text-[16px] text-md text-[#a4a4a4] pt-6">
@@ -72,7 +72,7 @@ function Landing() {
 								</Fade>
 								<div className="w-full flex justify-start py-6">
 									<Fade>
-										<button className="rounded-sm px-8 py-6 bg-[#f92e78] text-white">
+										<button className="rounded-sm px-8 py-6 bg-[#f92e78] hover:bg-[#ff5996]  text-white">
 											<span className="uppercase font-semibold text-[14px]">
 												Read More
 											</span>
@@ -190,7 +190,7 @@ function Landing() {
 									</ul>
 								</div>
 								<div className="w-full flex justify-start py-6">
-									<button className="rounded-sm px-12 py-6 bg-[#f92e78] text-white">
+									<button className="rounded-sm px-12 py-6 bg-[#f92e78] hover:bg-[#ff5996]  text-white">
 										<span className="uppercase font-semibold text-[14px]">
 											Bonuses
 										</span>
@@ -311,7 +311,7 @@ function Landing() {
 									</div>
 									<button
 										type="button"
-										className="text-white bg-[#f92e78] hover:bg-[#f92e78] focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
+										className="text-white bg-[#f92e78] hover:bg-[#ff5996]  dark:bg-blue-600 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
 										Choose plan
 									</button>
 								</div>
@@ -378,7 +378,7 @@ function Landing() {
 									</div>
 									<button
 										type="button"
-										className="text-white bg-[#f92e78] hover:bg-[#f92e78] focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
+										className="text-white bg-[#f92e78] hover:bg-[#ff5996]  font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
 										Choose plan
 									</button>
 								</div>
@@ -446,7 +446,7 @@ function Landing() {
 									</div>
 									<button
 										type="button"
-										className="text-white bg-[#f92e78] hover:bg-[#f92e78] focus:ring-4 focus:outline-none focus:ring-blue-200 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
+										className="text-white bg-[#f92e78] hover:bg-[#ff5996] font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
 										Choose plan
 									</button>
 								</div>
@@ -476,7 +476,7 @@ function Landing() {
 									</ul>
 								</div>
 								<div className="w-full flex justify-start py-6">
-									<button className="rounded-sm px-12 py-6 bg-[#f92e78] text-white">
+									<button className="rounded-sm px-12 py-6 bg-[#f92e78] hover:bg-[#ff5996]  text-white">
 										<span className="uppercase font-semibold text-[14px]">
 											Bonuses
 										</span>
