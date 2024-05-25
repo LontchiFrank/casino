@@ -26,7 +26,7 @@ const SpinWheel = () => {
 	};
 
 	return (
-		<>
+		<div div className="w-[60%] flex flex-col justify-center items-center">
 			<Wheel
 				mustStartSpinning={mustSpin}
 				prizeNumber={prizeNumber}
@@ -38,7 +38,7 @@ const SpinWheel = () => {
 			<button className="bg-white" onClick={handleSpinClick}>
 				SPIN
 			</button>
-		</>
+		</div>
 	);
 };
 
