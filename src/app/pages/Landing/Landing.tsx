@@ -1,6 +1,6 @@
 /** @format */
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { BsCashCoin, BsCoin } from "react-icons/bs";
 import { FaGamepad, FaSuperpowers } from "react-icons/fa";
 import { IoIosCash } from "react-icons/io";
@@ -13,6 +13,15 @@ import { Fade, Bounce, Slide, Zoom } from "react-awesome-reveal";
 
 function Landing() {
 	const [isVisible, setIsVisible] = useState(false);
+	const playerRef: any = useRef(null);
+	const [startPlay, setStartPlay] = useState<boolean>(false);
+
+	const handlePlay = () => {
+		if (playerRef.current) {
+			playerRef.current.play();
+		}
+		setStartPlay(true);
+	};
 
 	const toggleVisibility = () => {
 		if (window.pageYOffset > 300) {
@@ -56,7 +65,7 @@ function Landing() {
 									</Fade>
 								</div>
 								<Slide direction="down">
-									<h1 className="lg:text-[3.7rem] text-[2rem] text-white font-semibold lg:leading-[4rem] pb-2 leading-[3rem]">
+									<h1 className="xl:text-[3.7rem] text-[2rem] text-white font-semibold xl:leading-[4rem] pb-2 leading-[3rem]">
 										{" "}
 										Best Casino Affiliate Programs for Everyone
 									</h1>
@@ -218,11 +227,19 @@ function Landing() {
 							<div className="w-full flex lg:flex-row flex-col ">
 								<div className="lg:w-1/2 w-full ">
 									<Player
+										ref={playerRef}
 										src="https://lottie.host/a5d65264-08e9-4150-9a85-800009370d11/3d2ue0AtZU.json"
 										className="player"
-										loop
-										autoplay
+										loop={startPlay}
+										autoplay={startPlay}
 									/>
+									<div className="w-full flex justify-center">
+										<button
+											onClick={handlePlay}
+											className="mt-4 py-4 px-9 bg-[#f92e78] hover:bg-[#ff5996] text-white rounded-lg ">
+											Spin
+										</button>
+									</div>
 								</div>
 								<div className="lg:w-1/2 w-full pt-10">
 									<div className="w-full flex justify-start">
