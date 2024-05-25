@@ -1,6 +1,5 @@
 /** @format */
 
-import Image from "next/image";
 import Landing from "./pages/Landing/Landing";
 
 export default function Home() {
