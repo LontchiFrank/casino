@@ -55,15 +55,13 @@ function Footer() {
 							<ul className="text-white  font-medium">
 								<li className="mb-4">
 									<a
-										href="https://github.com/themesberg/flowbite"
+										href="https://github.com/LontchiFrank"
 										className="hover:underline ">
 										Github
 									</a>
 								</li>
 								<li>
-									<a
-										href="https://discord.gg/4eeurUVvTy"
-										className="hover:underline">
+									<a href="#" className="hover:underline">
 										Discord
 									</a>
 								</li>
@@ -158,7 +156,7 @@ function Footer() {
 							<svg
 								className="w-4 h-4"
 								aria-hidden="true"
-								xmlns="http://www.w3.org/2000/svg"
+								xmlns=""
 								fill="currentColor"
 								viewBox="0 0 20 20">
 								<path
