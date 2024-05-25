@@ -8,7 +8,6 @@ Welcome to the Casino Landing Page project! This project is a modern and visuall
 3. Technology Used
 4. Installation
 5. Usage
-6. Project structure
 
 ## Demo 
 Check out the live demo of the Casino Landing Page [here](https://casino-gules.vercel.app/). (Replace # with the link to your live demo)
@@ -28,4 +27,37 @@ Check out the live demo of the Casino Landing Page [here](https://casino-gules.v
   - JavaScript: Programming language for interactive elements.
 
     ## Installations
-    
+    1. Clone the repository
+    	` git clone https://github.com/LontchiFrank/casino.git `
+
+    2. Navigate to the project directory:
+       ` cd app/Landing/Landing`
+       
+   3. Install dependencies:
+      `npm install`
+
+   4. Start the development server:
+      `yarn dev`
+
+  5. Open your browser and go to http://localhost:3000 to see the application in action.
+
+ ## Usage
+ ### Spin Wheel Feature
+To use the spin wheel feature, follow these steps:
+1. Spin the Wheel: Click on the "Spin" button located in the center of the wheel.
+2. Pointer Indication: The wheel will spin and stop at a random segment, indicated by the pointer.
+
+## Adding Icons
+To add more icons to the landing page:
+1. Install React Icons if not already installed:
+   `npm install react-icons`
+2. Import and use icons in your components:
+   `import { FaBeer } from 'react-icons/fa';
+
+const ExampleComponent = () => (
+  <div>
+    <FaBeer /> Cheers!
+  </div>
+); `
+   
+   
