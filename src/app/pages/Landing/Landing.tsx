@@ -328,7 +328,7 @@ function Landing() {
 									</div>
 									<button
 										type="button"
-										className="text-white bg-[#f92e78] hover:bg-[#ff5996]  dark:bg-blue-600 font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
+										className="text-white bg-[#f92e78] hover:bg-[#ff5996] font-medium rounded-lg text-sm px-5 py-2.5 inline-flex justify-center w-full text-center">
 										Choose plan
 									</button>
 								</div>
