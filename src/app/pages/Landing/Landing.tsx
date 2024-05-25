@@ -1,13 +1,12 @@
 /** @format */
+
 import Navbar from "@/app/component/Navbar/Navbar";
+import SpinWheel from "@/app/component/SpinWheel/SpinWheel";
 import React from "react";
 import { BsCashCoin, BsCoin } from "react-icons/bs";
-import {
-	FaCashRegister,
-	FaFemale,
-	FaGamepad,
-	FaSuperpowers,
-} from "react-icons/fa";
+import { FaGamepad, FaSuperpowers } from "react-icons/fa";
+import { IoIosCash } from "react-icons/io";
+import { MdCasino } from "react-icons/md";
 
 function Landing() {
 	return (
@@ -90,7 +89,7 @@ function Landing() {
 						</div>
 						<div className=" w-full p-12 flex flex-col justify-center bg-[#120d1c] cursor-pointer">
 							<span className="text-green-500 uppercase flex justify-center pb-6  font-bold">
-								<FaCashRegister className="text-[50px] text-green-500 hover:text-[#f92e78]" />
+								<IoIosCash className="text-[50px] text-green-500 hover:text-[#f92e78]" />
 							</span>
 							<div className="w-full flex justify-center">
 								<span className="text-white font-bold  md:text-[1.3rem] text-[1rem]">
@@ -105,7 +104,7 @@ function Landing() {
 						</div>
 						<div className=" w-full py-12 flex flex-col justify-center bg-[#120d1c] cursor-pointer">
 							<span className="text-green-500 uppercase flex justify-center pb-6  font-bold">
-								<BsCoin className="text-[50px] text-green-500 hover:text-[#f92e78]" />
+								<MdCasino className="text-[50px] text-green-500 hover:text-[#f92e78]" />
 							</span>
 							<div className="w-full flex justify-center">
 								<span className="text-white font-bold  md:text-[1.3rem] text-[1rem]">
@@ -122,7 +121,7 @@ function Landing() {
 					<div className="w-full  flex lg:flex-row flex-col gap-12">
 						<div className="xl:w-1/2 w-full h-full">
 							<img
-								src="/images/66.svg"
+								src="/images/roulette.jpeg"
 								style={{ width: "100%", height: "70%" }}
 							/>
 						</div>
@@ -153,8 +152,22 @@ function Landing() {
 						</div>
 					</div>
 				</div>
-				<div className="w-full">
-					<img src="/images/wheel.jpeg" style={{ width: "100%" }} />
+				<div className="star  w-full h-[60vh]">
+					<div className="w-full h-full container mx-auto md:px-28 px-12 flex  ">
+						<div className="lg:w-1/2 w-full  h-full flex flex-col justify-center items-center ">
+							<div className="w-full flex justify-start">
+								<span className="text-green-500 font-bold tracking-[.35em]">
+									GAMBLE ALL YOU WANT
+								</span>
+							</div>
+							<h2 className="lg:text-[3rem] text-[2rem] pb-4 text-white font-semibold lg:leading-[3.6rem] leading-[3rem]">
+								Have fun and win prizes at our online casino!
+							</h2>
+						</div>
+					</div>
+				</div>
+				<div className="w-full px-20">
+					<SpinWheel />
 				</div>
 			</div>
 		</div>
