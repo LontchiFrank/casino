@@ -267,8 +267,8 @@ function Landing() {
 							</div>
 						</div>
 						<div className="w-full flex flex-col-reverse justify-center items-center gap-6 py-16">
-							<div className=" grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  justify-center gap-8">
-								<div className="w-full md:max-w-sm p-4 bg-[#120d1c]   rounded-lg shadow sm:p-8 hover:scale-110 transition duration-500 cursor-pointer object-cover">
+							<div className="w-full grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1  justify-center gap-8">
+								<div className="w-full  p-4 bg-[#120d1c]   rounded-lg shadow sm:p-8 hover:scale-110 transition duration-500 cursor-pointer object-cover">
 									<span className="text-green-500 uppercase flex justify-center pb-6  font-bold">
 										<LuPackageOpen className="text-[50px] text-green-500 hover:text-[#f92e78] " />
 									</span>
@@ -332,7 +332,7 @@ function Landing() {
 										Choose plan
 									</button>
 								</div>
-								<div className="w-full md:max-w-sm p-4 bg-[#120d1c]   rounded-lg shadow sm:p-8 hover:scale-110 transition duration-500 cursor-pointer object-cover">
+								<div className="w-full  p-4 bg-[#120d1c]   rounded-lg shadow sm:p-8 hover:scale-110 transition duration-500 cursor-pointer object-cover">
 									<span className="text-green-500 uppercase flex justify-center pb-6  font-bold">
 										<IoDiamondOutline className="text-[50px] text-green-500 hover:text-[#f92e78] " />
 									</span>
@@ -400,7 +400,7 @@ function Landing() {
 									</button>
 								</div>
 
-								<div className="w-full md:max-w-sm p-4 bg-[#120d1c]   rounded-lg shadow sm:p-8 hover:scale-110 transition duration-500 cursor-pointer object-cover">
+								<div className="w-full  p-4 bg-[#120d1c]   rounded-lg shadow sm:p-8 hover:scale-110 transition duration-500 cursor-pointer object-cover">
 									<span className="text-green-500 uppercase flex justify-center pb-6  font-bold">
 										<LuCherry className="text-[50px] text-green-500 hover:text-[#f92e78] " />
 									</span>
