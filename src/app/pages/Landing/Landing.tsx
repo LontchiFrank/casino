@@ -61,7 +61,7 @@ function Landing() {
 							<div className="lg:w-1/2 w-full flex flex-col lg:pt-0 pt-8 justify-center items-center">
 								<div className="w-full flex justify-start">
 									<Fade>
-										<span className="text-green-500">Bonus</span>
+										<span className="text-green-500 pb-6">Bonus</span>
 									</Fade>
 								</div>
 								<Slide direction="down">
