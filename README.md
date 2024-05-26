@@ -52,12 +52,16 @@ To add more icons to the landing page:
 1. Install React Icons if not already installed:
    `npm install react-icons`
 2. Import and use icons in your components:
-   `import { FaBeer } from 'react-icons/fa';
+   ```
+   import { FaBeer } from 'react-icons/fa';
+   
+   const ExampleComponent = () => ( <div>
+    <FaBeer /> Cheers! </div> )}
+ 
 
-const ExampleComponent = () => (
-  <div>
-    <FaBeer /> Cheers!
-  </div>
-); `
+); ```
    
-   
+## Contact
+Name : Fodjo Lontchi Frank.
+Email: fodjolontchifrank@gmail.com
+Github: LontchiFrank.
